@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECFA46A91EC46C4A0062420F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA46A81EC46C4A0062420F /* AppDelegate.swift */; };
+		ECFA46AB1EC46C4A0062420F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA46AA1EC46C4A0062420F /* ViewController.swift */; };
+		ECFA46AE1EC46C4A0062420F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFA46AC1EC46C4A0062420F /* Main.storyboard */; };
+		ECFA46B01EC46C4A0062420F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFA46AF1EC46C4A0062420F /* Assets.xcassets */; };
+		ECFA46B31EC46C4A0062420F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFA46B11EC46C4A0062420F /* LaunchScreen.storyboard */; };
+		ECFA46C01EC46D8A0062420F /* i91729-gateau-simple-au-chocolat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ECFA46BF1EC46D8A0062420F /* i91729-gateau-simple-au-chocolat.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECFA46A51EC46C4A0062420F /* 04_MemeActionPlusieursBoutons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 04_MemeActionPlusieursBoutons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFA46A81EC46C4A0062420F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECFA46AA1EC46C4A0062420F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECFA46AD1EC46C4A0062420F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECFA46AF1EC46C4A0062420F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFA46B21EC46C4A0062420F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECFA46B41EC46C4A0062420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFA46BF1EC46D8A0062420F /* i91729-gateau-simple-au-chocolat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "i91729-gateau-simple-au-chocolat.jpeg"; path = "../../../../../Downloads/i91729-gateau-simple-au-chocolat.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFA46A21EC46C4A0062420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECFA469C1EC46C4A0062420F = {
+			isa = PBXGroup;
+			children = (
+				ECFA46A71EC46C4A0062420F /* 04_MemeActionPlusieursBoutons */,
+				ECFA46A61EC46C4A0062420F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFA46A61EC46C4A0062420F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA46A51EC46C4A0062420F /* 04_MemeActionPlusieursBoutons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECFA46A71EC46C4A0062420F /* 04_MemeActionPlusieursBoutons */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA46A81EC46C4A0062420F /* AppDelegate.swift */,
+				ECFA46AA1EC46C4A0062420F /* ViewController.swift */,
+				ECFA46AC1EC46C4A0062420F /* Main.storyboard */,
+				ECFA46AF1EC46C4A0062420F /* Assets.xcassets */,
+				ECFA46B11EC46C4A0062420F /* LaunchScreen.storyboard */,
+				ECFA46B41EC46C4A0062420F /* Info.plist */,
+				ECFA46C11EC46D8E0062420F /* media */,
+			);
+			path = 04_MemeActionPlusieursBoutons;
+			sourceTree = "<group>";
+		};
+		ECFA46C11EC46D8E0062420F /* media */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA46BF1EC46D8A0062420F /* i91729-gateau-simple-au-chocolat.jpeg */,
+			);
+			name = media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFA46A41EC46C4A0062420F /* 04_MemeActionPlusieursBoutons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFA46B71EC46C4A0062420F /* Build configuration list for PBXNativeTarget "04_MemeActionPlusieursBoutons" */;
+			buildPhases = (
+				ECFA46A11EC46C4A0062420F /* Sources */,
+				ECFA46A21EC46C4A0062420F /* Frameworks */,
+				ECFA46A31EC46C4A0062420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 04_MemeActionPlusieursBoutons;
+			productName = 04_MemeActionPlusieursBoutons;
+			productReference = ECFA46A51EC46C4A0062420F /* 04_MemeActionPlusieursBoutons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFA469D1EC46C4A0062420F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = etudiant;
+				TargetAttributes = {
+					ECFA46A41EC46C4A0062420F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECFA46A01EC46C4A0062420F /* Build configuration list for PBXProject "04_MemeActionPlusieursBoutons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECFA469C1EC46C4A0062420F;
+			productRefGroup = ECFA46A61EC46C4A0062420F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFA46A41EC46C4A0062420F /* 04_MemeActionPlusieursBoutons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFA46A31EC46C4A0062420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFA46B31EC46C4A0062420F /* LaunchScreen.storyboard in Resources */,
+				ECFA46B01EC46C4A0062420F /* Assets.xcassets in Resources */,
+				ECFA46C01EC46D8A0062420F /* i91729-gateau-simple-au-chocolat.jpeg in Resources */,
+				ECFA46AE1EC46C4A0062420F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFA46A11EC46C4A0062420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFA46AB1EC46C4A0062420F /* ViewController.swift in Sources */,
+				ECFA46A91EC46C4A0062420F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECFA46AC1EC46C4A0062420F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFA46AD1EC46C4A0062420F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECFA46B11EC46C4A0062420F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFA46B21EC46C4A0062420F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECFA46B51EC46C4A0062420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECFA46B61EC46C4A0062420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFA46B81EC46C4A0062420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 04_MemeActionPlusieursBoutons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etudiant.-4-MemeActionPlusieursBoutons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECFA46B91EC46C4A0062420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 04_MemeActionPlusieursBoutons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etudiant.-4-MemeActionPlusieursBoutons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFA46A01EC46C4A0062420F /* Build configuration list for PBXProject "04_MemeActionPlusieursBoutons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFA46B51EC46C4A0062420F /* Debug */,
+				ECFA46B61EC46C4A0062420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFA46B71EC46C4A0062420F /* Build configuration list for PBXNativeTarget "04_MemeActionPlusieursBoutons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFA46B81EC46C4A0062420F /* Debug */,
+				ECFA46B91EC46C4A0062420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECFA469D1EC46C4A0062420F /* Project object */;
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORe-ay-MIQ">
+                                <rect key="frame" x="274" y="28" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="KOm-Hg-stO"/>
+                                    <constraint firstAttribute="height" constant="30" id="tx4-nY-dYf"/>
+                                </constraints>
+                                <state key="normal" title="Ok"/>
+                                <connections>
+                                    <action selector="btnChargerTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fH-lN-1c4"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://openclassrooms.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ysH-xf-0MX">
+                                <rect key="frame" x="27" y="28" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rxg-xT-Yrz"/>
+                                    <constraint firstAttribute="width" constant="250" id="xBF-0T-ptn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMR-aQ-lAC">
+                                <rect key="frame" x="16" y="78" width="288" height="490"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ysH-xf-0MX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="7H2-bG-Cgq"/>
+                            <constraint firstItem="ORe-ay-MIQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="9Ra-4d-kVE"/>
+                            <constraint firstItem="LMR-aQ-lAC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="MyA-th-4Fe"/>
+                            <constraint firstItem="ysH-xf-0MX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="VZ6-X5-TQ3"/>
+                            <constraint firstItem="ysH-xf-0MX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Z4d-AI-UxM"/>
+                            <constraint firstItem="LMR-aQ-lAC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="g7o-hG-kWY"/>
+                            <constraint firstItem="ysH-xf-0MX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="jep-D2-c1a"/>
+                            <constraint firstItem="LMR-aQ-lAC" firstAttribute="top" secondItem="ysH-xf-0MX" secondAttribute="bottom" constant="20" id="laa-cG-NaN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ORe-ay-MIQ" secondAttribute="trailing" id="mgZ-XD-22w"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LMR-aQ-lAC" secondAttribute="bottom" id="uGG-xY-GfH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtUrl" destination="ysH-xf-0MX" id="9YV-cG-GqH"/>
+                        <outlet property="webView" destination="LMR-aQ-lAC" id="ETX-o2-B5t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="110.19490254872565"/>
+        </scene>
+    </scenes>
+</document>

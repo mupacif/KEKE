@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC516AF11E9E734000B6F088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC516AF01E9E734000B6F088 /* main.m */; };
+		EC516AF41E9E734000B6F088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC516AF31E9E734000B6F088 /* AppDelegate.m */; };
+		EC516AF71E9E734000B6F088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC516AF61E9E734000B6F088 /* ViewController.m */; };
+		EC516AFA1E9E734000B6F088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC516AF81E9E734000B6F088 /* Main.storyboard */; };
+		EC516AFC1E9E734000B6F088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC516AFB1E9E734000B6F088 /* Assets.xcassets */; };
+		EC516AFF1E9E734000B6F088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC516AFD1E9E734000B6F088 /* LaunchScreen.storyboard */; };
+		EC516B081E9E739F00B6F088 /* Automobile.m in Sources */ = {isa = PBXBuildFile; fileRef = EC516B071E9E739F00B6F088 /* Automobile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC516AEC1E9E734000B6F088 /* 05_getters_and_setters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 05_getters_and_setters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC516AF01E9E734000B6F088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC516AF21E9E734000B6F088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC516AF31E9E734000B6F088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC516AF51E9E734000B6F088 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC516AF61E9E734000B6F088 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC516AF91E9E734000B6F088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC516AFB1E9E734000B6F088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC516AFE1E9E734000B6F088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC516B001E9E734000B6F088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC516B061E9E739F00B6F088 /* Automobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Automobile.h; sourceTree = "<group>"; };
+		EC516B071E9E739F00B6F088 /* Automobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Automobile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC516AE91E9E734000B6F088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC516AE31E9E734000B6F088 = {
+			isa = PBXGroup;
+			children = (
+				EC516AEE1E9E734000B6F088 /* 05_getters_and_setters */,
+				EC516AED1E9E734000B6F088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC516AED1E9E734000B6F088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC516AEC1E9E734000B6F088 /* 05_getters_and_setters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC516AEE1E9E734000B6F088 /* 05_getters_and_setters */ = {
+			isa = PBXGroup;
+			children = (
+				EC516B061E9E739F00B6F088 /* Automobile.h */,
+				EC516B071E9E739F00B6F088 /* Automobile.m */,
+				EC516AF21E9E734000B6F088 /* AppDelegate.h */,
+				EC516AF31E9E734000B6F088 /* AppDelegate.m */,
+				EC516AF51E9E734000B6F088 /* ViewController.h */,
+				EC516AF61E9E734000B6F088 /* ViewController.m */,
+				EC516AF81E9E734000B6F088 /* Main.storyboard */,
+				EC516AFB1E9E734000B6F088 /* Assets.xcassets */,
+				EC516AFD1E9E734000B6F088 /* LaunchScreen.storyboard */,
+				EC516B001E9E734000B6F088 /* Info.plist */,
+				EC516AEF1E9E734000B6F088 /* Supporting Files */,
+			);
+			path = 05_getters_and_setters;
+			sourceTree = "<group>";
+		};
+		EC516AEF1E9E734000B6F088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC516AF01E9E734000B6F088 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC516AEB1E9E734000B6F088 /* 05_getters_and_setters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC516B031E9E734000B6F088 /* Build configuration list for PBXNativeTarget "05_getters_and_setters" */;
+			buildPhases = (
+				EC516AE81E9E734000B6F088 /* Sources */,
+				EC516AE91E9E734000B6F088 /* Frameworks */,
+				EC516AEA1E9E734000B6F088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 05_getters_and_setters;
+			productName = 05_getters_and_setters;
+			productReference = EC516AEC1E9E734000B6F088 /* 05_getters_and_setters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC516AE41E9E734000B6F088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = etudiant;
+				TargetAttributes = {
+					EC516AEB1E9E734000B6F088 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC516AE71E9E734000B6F088 /* Build configuration list for PBXProject "05_getters_and_setters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC516AE31E9E734000B6F088;
+			productRefGroup = EC516AED1E9E734000B6F088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC516AEB1E9E734000B6F088 /* 05_getters_and_setters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC516AEA1E9E734000B6F088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC516AFF1E9E734000B6F088 /* LaunchScreen.storyboard in Resources */,
+				EC516AFC1E9E734000B6F088 /* Assets.xcassets in Resources */,
+				EC516AFA1E9E734000B6F088 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC516AE81E9E734000B6F088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC516B081E9E739F00B6F088 /* Automobile.m in Sources */,
+				EC516AF71E9E734000B6F088 /* ViewController.m in Sources */,
+				EC516AF41E9E734000B6F088 /* AppDelegate.m in Sources */,
+				EC516AF11E9E734000B6F088 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC516AF81E9E734000B6F088 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC516AF91E9E734000B6F088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC516AFD1E9E734000B6F088 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC516AFE1E9E734000B6F088 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC516B011E9E734000B6F088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC516B021E9E734000B6F088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC516B041E9E734000B6F088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 05_getters_and_setters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etudiant.-5-getters-and-setters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC516B051E9E734000B6F088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 05_getters_and_setters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etudiant.-5-getters-and-setters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC516AE71E9E734000B6F088 /* Build configuration list for PBXProject "05_getters_and_setters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC516B011E9E734000B6F088 /* Debug */,
+				EC516B021E9E734000B6F088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC516B031E9E734000B6F088 /* Build configuration list for PBXNativeTarget "05_getters_and_setters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC516B041E9E734000B6F088 /* Debug */,
+				EC516B051E9E734000B6F088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC516AE41E9E734000B6F088 /* Project object */;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmz-qB-Vpl">
+                                <rect key="frame" x="16" y="20" width="103" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="PBP-JH-G5i"/>
+                                    <constraint firstAttribute="height" constant="50" id="WEp-5S-sAw"/>
+                                </constraints>
+                                <state key="normal" title="Creer base"/>
+                                <connections>
+                                    <action selector="btnCreerBaseTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3To-gf-lmI"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IOt-0i-5ma">
+                                <rect key="frame" x="8" y="115" width="304" height="357"/>
+                                <color key="backgroundColor" red="0.48423748846444387" green="0.42096673930293782" blue="0.9039498730964467" alpha="0.11649186643835617" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.17926383701222437" green="0.4216355909873179" blue="0.63483502538071068" alpha="0.64370184075342463" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i79-Tw-EwZ">
+                                <rect key="frame" x="190" y="20" width="114" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CcE-dX-yM5"/>
+                                </constraints>
+                                <state key="normal" title="Ecrire dans base"/>
+                                <connections>
+                                    <action selector="btnEcrireDansBaseTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ixd-OI-ecp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rv2-8D-b6B">
+                                <rect key="frame" x="8" y="77" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lire tout employe"/>
+                                <connections>
+                                    <action selector="btnLireTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZ2-vR-IWI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="up2-Il-Fes">
+                                <rect key="frame" x="184" y="77" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lire employe Apple"/>
+                                <connections>
+                                    <action selector="btnLireTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JCL-eS-t6T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IOt-0i-5ma" firstAttribute="top" secondItem="i79-Tw-EwZ" secondAttribute="bottom" constant="45" id="JR6-cJ-3K9"/>
+                            <constraint firstItem="mmz-qB-Vpl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="W5p-dJ-N3m"/>
+                            <constraint firstItem="IOt-0i-5ma" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="WBt-D7-sEc"/>
+                            <constraint firstItem="mmz-qB-Vpl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="XsH-Ay-mQJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i79-Tw-EwZ" secondAttribute="trailing" id="gGj-YY-QCH"/>
+                            <constraint firstItem="i79-Tw-EwZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="jBC-yB-jJK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IOt-0i-5ma" secondAttribute="bottom" constant="8" id="lV7-0Z-Ruf"/>
+                            <constraint firstAttribute="trailing" secondItem="IOt-0i-5ma" secondAttribute="trailing" constant="8" id="st2-CR-9F9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnLireEmpsApple" destination="up2-Il-Fes" id="hGw-iI-PZx"/>
+                        <outlet property="txtAffichage" destination="IOt-0i-5ma" id="lSs-fP-OsN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="122.5"/>
+        </scene>
+    </scenes>
+</document>
